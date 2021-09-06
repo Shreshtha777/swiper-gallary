@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fdf8ee;
+}
+
+.main-nav {
+    color: black;
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    z-index: 5;
+}
+
+.brand {
+    margin: 0;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 2rem;
+    cursor: grab;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.swiper-container {
+    width: 600px;
+}
+
+swiper-slide {
+    text-align: center;
+}
+
+img {
+    height: 600px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .swiper-container {
+      width: 100%;
+    }
+  }
